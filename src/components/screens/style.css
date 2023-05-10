@@ -1,0 +1,153 @@
+*{
+    list-style: none;
+}
+div.main{
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+    max-width: 900px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e2dfdf ;
+
+}
+h1{
+  
+}
+h2{
+    text-align: left;
+    color: rgb(64, 19, 107);
+}
+div.todo{
+    margin: 0 auto;
+    width: 50%;  
+}
+div.todo ul{
+
+}
+div.todo ul li{
+    
+    
+}
+div.todo ul li button{
+    
+    
+}
+
+div.todo ul div.form{
+    display: flex;
+    border: 2px solid #e2dfdf ;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+div.todo ul div.form img{
+    margin-left: 5
+    
+    
+    px;
+
+
+}
+div.todo div.form input{
+    border: none;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    
+    
+}
+div.todo ul div.form button.add-item{
+    background: #331c49;
+    color: #fff;
+    display: inline-block;
+    padding: 14px 20px;
+    cursor: pointer;
+    
+
+    
+    
+}
+div.item{
+    width: 100%;
+
+}
+div.item li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+}
+div.item li div.list{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+
+}
+div.item li div.list button.span{
+    border-radius: 50%;
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+    border: 2px solid rgb(64, 19, 107);
+    display: inline-block;
+    
+
+}
+div.item li button.deleted{
+    border: none;
+    background: none;
+  
+    
+
+}
+div.complete{
+    margin: 0 auto;
+    width: 50%; 
+}
+div.complete ul{
+ 
+}
+div.complete ul li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ 
+}
+div.complete ul li div.list{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(56, 202, 88) ;
+
+
+}
+div.complete ul li div.list span{
+    border-radius: 50%;
+    height: 25px;
+    margin-right: 20px;
+    width: 25px;
+    border: 2px solid rgb(56, 202, 88);
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+div.complete ul li div.list span img{
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+div.complete ul li div.buttons button{
+    background: none;
+    border: none;
+    margin-left: 20px;
+}
